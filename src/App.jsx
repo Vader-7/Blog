@@ -4,8 +4,7 @@ import { Rutas } from './routing/Rutas'
 function App() {
 
   return (
-    <div className="App">
-      <h1>My blog</h1>
+    <div className="layout">
       <Rutas />
     </div>
   )
