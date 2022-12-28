@@ -2,6 +2,7 @@ import React from 'react';
 import { Routes, Route, BrowserRouter, Navigate } from 'react-router-dom';
 import {Start} from '../components/pages/Start';
 import {Articles} from '../components/pages/Articles';
+import {CreateArticles} from '../components/pages/CreateArticles';
 import { Header } from '../components/layout/Header';
 import { Nav } from '../components/layout/Nav';
 import { Footer } from '../components/layout/Footer';
@@ -17,6 +18,7 @@ export const Rutas = () => {
                     <Route path="/" exact element={<Start/>} />
                     <Route path="/start" element={<Start/>} />
                     <Route path="/articles" element={<Articles/>} />
+                    <Route path="/create" element={<CreateArticles/>} />
                 </Routes>
             </section>
             <Sidebar/>
