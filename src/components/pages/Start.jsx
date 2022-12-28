@@ -3,8 +3,9 @@ import React from 'react';
 
 export const Start = () => {
     return (
-        <div>
-            <h1>Hello there</h1>
+        <div className='jumbo'>
+            <h1>Welcome to my Blog</h1>
+            <p>This blog was develop using MERN stack (Mongo, Express, React and NodeJS)</p>
         </div>
     )
 }
