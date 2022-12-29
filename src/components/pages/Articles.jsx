@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
+import { Global } from '../../routing/Global';
 
 export const Articles = () => {
     const [articles, setArticles] = useState([]);
